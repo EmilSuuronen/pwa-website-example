@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('../fonts/BebasNeue-Regular.ttf')  format('truetype');
+}
+
+body {
+    font-family: BebasNeue-Regular, sans-serif;
+    color: #ffffff;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url("https://users.metropolia.fi/~emilsu/pwa-assingment/images/Rani_ki_vav_02.jpg");
+    background-size: cover;
+}
+
+/* Center the content in the browser window */
+.container {
+    margin: auto;
+    text-align: center;
+    padding: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.title {
+    font-size: 48px;
+}
+
+.text-intro {
+    font-size: 24px;
+}
